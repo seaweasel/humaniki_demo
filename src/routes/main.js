@@ -9,13 +9,4 @@ router.get('/jumbotron', (req, resp) =>{
     resp.render('jumbotron.hbs');
 });
 
-router.get('/card', (req, resp) =>{
-    resp.render('card.hbs')
-});
-
-router.get('/newby', (req, resp) =>{
-    resp.send("HEY OK");
-});
-
-
 module.exports = router;
